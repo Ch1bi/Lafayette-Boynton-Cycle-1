@@ -1,0 +1,111 @@
+/*margin and padding reset*/
+* {
+margin: 0;
+padding: 0;
+}
+
+body{
+    
+    width:100%;
+    min-height: 100%;
+}
+/*End margin and padding reset*/
+
+.home{
+    
+background-image: url("nyc.jpg");
+
+}
+
+.container{
+    
+    display:flex;
+    flex-direction: column;
+    
+}
+
+/*Link styles*/
+
+a:link {
+    color: orange;
+}
+
+
+a:hover{
+    
+    background-color:greenyellow;
+}
+
+
+/*Intro paragraph styles*/
+
+.know-me{
+    
+    font-size:30pt;
+    font-weight: 700;
+    
+}
+
+.intro{
+    
+    margin: 10em 0 0 0;
+    color:white;
+    font-size:12pt;
+    font-family: monospace;
+    text-align: center;
+}
+
+
+.buttons{
+    
+    margin: 5em 0 0 0;
+    align-self: center;
+}
+
+
+/*End Intro paragraph styles*/
+
+
+/* Nav links to other pages*/
+
+.a-button, .c-button{
+    
+    padding: 1em;
+    font-size:12pt;
+    background-color:orange;
+    color:white;
+    margin:0.25em;
+    border: none;
+    border-radius: 2px;
+    
+}
+
+.a-button,.c-button: hover{
+    
+   background-color:darkorange;
+    
+}
+/*End nav links*/
+
+/*Footer*/
+
+#footer{
+    
+    background-color: black;
+    color:white;
+    opacity: 0.7;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height:10%;
+    text-align: center;
+    font-size: 15pt;
+    padding:2em 0 0 0;
+}
+
+/*End Footer*/
+
+
+/*End nav links to other pages*/
+
+
