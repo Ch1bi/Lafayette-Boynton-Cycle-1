@@ -28,8 +28,10 @@
         
       <div class="buttons">
             
-            <button class="a-button">About</button>
-            <button class="c-button">Contact</button>
+            <button class="a-button" onclick="window.location='about.html'">About</button>
+
+
+            <button class="c-button" onclick="window.location='contact.html'">Contact</button>
             
         </div>
         
@@ -49,16 +51,15 @@
         
         //quotes to run
         var quotes = ["Success is no accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing or learning to do.", "Learn to enjoy every minute of your life. Be happy now. Don't wait for something outside of yourself to make you happy in the future.","Stay positive and happy. Work hard and don't give up hope. Be open to criticism and keep learning. Surround yourself with happy, warm and genuine people."];
+
+        setInterval(runQuotes, 4000);
     
         function runQuotes(){
             
-                
-            setInterval(runQuotes, 4000);
-        
             var rand = Math.floor(Math.random() * quotes.length);
             grabFooter.innerHTML = quotes[rand];
                 
-            }
+        }
 
     </script>
   
